@@ -14,7 +14,117 @@ ul , ol {
     list-style: none;
 }
 header{
-    background: linear-gradient(147.31deg, rgba(141, 141, 236, 0.167177) 45.74%, rgba(84, 84, 212, 0.0001) 86.05%);
-width: 500px;
-height: 500px;
 }
+nav{height: 46px;
+display: flex;
+justify-content:space-between;
+align-items: center;}
+.nav-left{  
+    width: 80px;
+    height: 30px;
+}
+.nav-left> a{
+    color: #19191B;
+    font-family: CircularStd;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    letter-spacing: -0.75px;
+}
+.nav-box{ width: 420px;
+height: 45px;
+    display: flex;
+justify-content: space-between;
+align-items: center;
+text-align: center;}
+.nav-right{
+    width: 228px;
+    height: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-right> a{
+    color: #19191B;
+font-family: CircularStd;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: -0.5px;
+}
+.nav-right> a:nth-child(1){
+    color: #5454D4;
+text-align: right;
+}
+.nav-link{
+    width: 141px;
+    height: 45px;
+    background-color: #F04037;
+    border: 1px solid #C31A12;
+    border-radius: 5px;
+    color: white;
+    color: #FFF;
+    text-align: center;
+    font-family: CircularStd;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: -0.5px; 
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+.header-left{
+    width: 691px;
+    height: 526px;
+}
+.header-left> h1{
+    color: #19191B;
+font-family: CircularStd;
+font-size: 80px;
+font-style: normal;
+font-weight: 700;
+line-height: 84px; /* 105% */
+letter-spacing: -2.501px;
+}
+.header-left> p{
+    width: 536px;
+    color: #696871;
+font-family: CircularStd;
+font-size: 21px;
+font-style: normal;
+font-weight: 400;
+line-height: 39px; /* 185.714% */
+letter-spacing: -0.657px;
+}
+.header-link{
+    width: 200px;
+    height: 60px;
+    background-color: #F04037;
+    border: 1px solid #C31A12;
+    border-radius: 5px;
+    color: white;
+    color: #FFF;
+    font-family: CircularStd;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: -0.5px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+}
+.header-left> a:nth-child(2){
+    color: #5454D4;
+font-family: CircularStd;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+letter-spacing: -0.5px;
+   }
