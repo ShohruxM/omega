@@ -128,3 +128,25 @@ font-weight: 500;
 line-height: normal;
 letter-spacing: -0.5px;
    }
+.img-battom{
+    width: 305px;
+    height: 80px;
+    background-color: #FEDC5A;
+    display: flex;
+    align-items: center;
+}
+.img-top{
+    width: 305px;
+    height: 66px;
+    background-color: #5454D4;
+    display: flex;
+    align-items: center;
+}
+.header-box{
+    height: 690px;
+    display: flex;
+    justify-content: space-between;
+}
+.header-box::after;
+bc
+
